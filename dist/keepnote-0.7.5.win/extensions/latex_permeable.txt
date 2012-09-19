@@ -1,0 +1,22 @@
+% This permeable is used to include a header when running latex prompt inserts
+% Adding a permeable to a certain node makes it active to all its children
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\newcommand{\x}{\mathbf x}
+%\usepackage{fullpage}
+\pagestyle{empty}
+
+%\pageheight= 199.99 in
+%\textheight=0.5 \maxdimen
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,snakes,patterns,matrix,shapes,fit,calc,shadows,plotmarks} %background did not exist in windows
+%\input tikz.tex
+
+%\newlength{\imagescale}
+%\setlength{\paperheight}{199in}
+%\setlength{\textheight}{100in}
+
+%\usepackage[paperheight=199.99in]{geometry}   
+C:\MyDesktop\New Folder\Temp

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+  <dict>
+    <key>version</key>
+    <string>1.0</string>
+    <key>name</key>
+    <string>LaTeX Prompt</string>
+    <key>author</key>
+    <string>Reshad Hosseini</string>
+    <key>email</key>
+    <string>hosseini@bethgelab.org</string>
+    <key>website</key>
+    <string>http://keepnote.org</string>
+    <key>description</key>
+<string>Allows the user to include latex objects like equation in the notes</string>
+  </dict>
+</extension>

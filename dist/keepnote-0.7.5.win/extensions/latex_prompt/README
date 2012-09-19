@@ -1,0 +1,24 @@
+LaTeX Prompt - Extension for inserting latex into the keepnote
+Copyright 2012 Reshad Hosseini 
+hosseini@bethgelab.org
+
+
+<<Important>>:
+
+The latex text in addition to its possible label and caption is stored in text chunks of png images. In order to be sure that the text information is remained into the png image, one needs to modify file "editor-richtext.py" of keepnote software before compiling it. The modified file for keepnote version 0.7.5 is placed in the extension folder and you need to replace the original file in the folder "/keepnote/gui" by this file.
+
+The LaTeX software together with dvipng and imagemagick softwares needs to be installed before using this extension.
+
+
+How to use Dialog Latex:
+
+Using this extension one can convert latex code to png images and insert them into main text editor of keepnote software. To this end different options are provided under tools menu in menubar.
+
+There exist the possibility to include one's own latex header (like latex packages ,etc). Upon clicking "Insert LaTeX Permeable" in Edit menu a text file is added to the node which one can modify its contents. When inserting a latex object into the editor, the extension searches for possible header for the node and all its parents.
+
+One can toggle between latex code and its corresponding png images by selecting a section of the text and clicking "Convert Selection to LaTeX" or "Convert Selection to RichText" 
+
+
+
+
+

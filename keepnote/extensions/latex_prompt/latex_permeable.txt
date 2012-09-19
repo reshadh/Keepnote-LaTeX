@@ -1,0 +1,6 @@
+% This permeable is used to include a header when running latex prompt inserts
+% Adding a permeable to a certain node makes it active to all its children
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\newcommand{\x}{\mathbf x}
